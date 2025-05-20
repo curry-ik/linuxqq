@@ -1,4 +1,4 @@
-#linuxqq
+# linuxqq
 docker build -t mylinux:1 .
 xhost +local:docker #要运行具有 GUI 支持的 Docker 容器，您需要配置 X11 服务器访问：
 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix
